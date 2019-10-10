@@ -231,7 +231,7 @@ header {
           font-weight: bold;
           color: #69aa38 !important;
           border-radius: 12px;
-          padding: 10px;
+          padding: 9px;
         }
       }
 
@@ -372,6 +372,7 @@ header {
         display: inline-block;
         padding: 23px;
         border-radius: 15px;
+        width: 100%;
 
         h3 {
           color: white;
@@ -387,6 +388,9 @@ header {
           right: 55.5%;
         }
         }
+      .block-inner{
+        width: 100%;
+      }
 
 
       }
@@ -405,6 +409,7 @@ header {
       display: inline-block;
       padding: 23px;
       border-radius: 15px;
+      width: 100%;
 
       h3 {
         color: white;
@@ -432,6 +437,8 @@ header {
         background-color: #eaeaea;
         border-radius: 15px;
         padding: 10px;
+        font-size: 0px;
+        width: 100%;
 
         h3 {
 
@@ -440,15 +447,17 @@ header {
         .block-header {
           display: inline-block;
           color: white;
-          border-radius: 10px;
+          border-radius: 0 10px 10px 0;
           width: 100%;
 
 
           h6 {
+            display: inline-block;
             color: white;
             font-size: 18px;
             margin: 0;
             padding: 4px;
+            vertical-align: top;
           }
 
           h6::after {
@@ -458,6 +467,34 @@ header {
             position: relative;
             left: 50%;
           }
+          p{
+            display: inline-block;
+            vertical-align: top;
+          }
+        }
+        .part1{
+          display: inline-block;
+          width:33%;
+          vertical-align: top;
+          border-radius: 15px 0 15px 15px;
+          p{
+            padding: 8px;
+            text-align: center;
+            color: white;
+            font-size: 18px;
+            font-weight: 600;
+
+          }
+        }
+        .part2{
+          display: inline-block;
+          width: 65%;
+          p{
+            font-size: 16px;
+          }
+
+
+
         }
 
 
@@ -487,7 +524,7 @@ header {
   width: 100%;
   margin: 0 auto;
   min-height: 70vh;
-  padding: 0 15px;
+  padding: 15px 15px;
 
 }
 footer {
@@ -720,7 +757,7 @@ footer {
         }
         .blocks{
           .block-1{
-            min-width: 290px;
+            min-width: 100%;
             margin: 20px 0;
             .block{
               h3::after{
@@ -728,15 +765,36 @@ footer {
                 border-bottom: 0px solid transparent;
                 border-left: 0px solid #eeae30;
               }
+              .block-inner{
+                .block-header{
+                  h6::after{
+                    display: none;
+                  }
+                }
+
+              }
+
+
             }
           }
           .block-2{
-            min-width: 290px;
+            min-width: 100%;
             .block{
               h3::after{
                 border-top: 0px solid transparent;
                 border-bottom: 0px solid transparent;
                 border-left: 0px solid #ce5d1b;
+              }
+              h3::before{
+                display: none;
+              }
+              .block-inner{
+                .block-header{
+                  h6::after{
+                    display: none;
+                  }
+                }
+
               }
             }
           }
@@ -839,6 +897,9 @@ footer {
     .main-container{
       .page-container{
         main{
+          .navbar-main{
+            height: auto;
+          }
           .gallery{
             display: none;
           }
@@ -853,10 +914,37 @@ footer {
             }
             .col2{
               .sidebox{
-                width: 290px;
+
               }
             }
           }
+          .blocks{
+            .block-1{
+              .block-inner{
+                .block-header{
+                  h6{
+
+                  }
+                  h6::after{
+                    display: none;
+                  }
+                }
+              }
+            }
+            .block-2{
+              .block-inner{
+                .block-header{
+                  h6{
+
+                  }
+                  h6::after{
+                    display: none;
+                  }
+                }
+              }
+            }
+          }
+
         }
       }
     }

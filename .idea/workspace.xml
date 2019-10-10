@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7644ed13-2c11-4810-ad39-151e7f985513" name="Default Changelist" comment="">
+    <list default="true" id="7644ed13-2c11-4810-ad39-151e7f985513" name="Default Changelist" comment="Updating mobile views">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/index.css.map" afterDir="false" />
@@ -23,7 +24,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1RvHMyS5foZmX5jSnhLAcDQCVNh" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -56,7 +59,16 @@
       <workItem from="1570540607236" duration="747000" />
       <workItem from="1570541381862" duration="10557000" />
       <workItem from="1570608357371" duration="22700000" />
+      <workItem from="1570692808638" duration="6634000" />
     </task>
+    <task id="LOCAL-00001" summary="Updating mobile views">
+      <created>1570692957023</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1570692957023</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -74,5 +86,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Updating mobile views" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating mobile views" />
   </component>
 </project>

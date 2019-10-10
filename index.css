@@ -183,7 +183,7 @@ header .search-block {
   font-weight: bold;
   color: #69aa38 !important;
   border-radius: 12px;
-  padding: 10px;
+  padding: 9px;
 }
 .main-container .page-container main .gallery {
   display: inline-block;
@@ -284,6 +284,7 @@ header .search-block {
   display: inline-block;
   padding: 23px;
   border-radius: 15px;
+  width: 100%;
 }
 .main-container .blocks .block-1 .block h3 {
   color: white;
@@ -298,6 +299,9 @@ header .search-block {
   top: 59%;
   right: 55.5%;
 }
+.main-container .blocks .block-1 .block-inner {
+  width: 100%;
+}
 
 .block-2 {
   display: inline-block;
@@ -307,6 +311,7 @@ header .search-block {
   display: inline-block;
   padding: 23px;
   border-radius: 15px;
+  width: 100%;
 }
 .block-2 .block h3 {
   color: white;
@@ -331,18 +336,22 @@ header .search-block {
   background-color: #eaeaea;
   border-radius: 15px;
   padding: 10px;
+  font-size: 0px;
+  width: 100%;
 }
 .block-2 .block .block-inner .block-header {
   display: inline-block;
   color: white;
-  border-radius: 10px;
+  border-radius: 0 10px 10px 0;
   width: 100%;
 }
 .block-2 .block .block-inner .block-header h6 {
+  display: inline-block;
   color: white;
   font-size: 18px;
   margin: 0;
   padding: 4px;
+  vertical-align: top;
 }
 .block-2 .block .block-inner .block-header h6::after {
   font-family: "Font Awesome 5 Pro";
@@ -350,6 +359,30 @@ header .search-block {
   font-weight: 700;
   position: relative;
   left: 50%;
+}
+.block-2 .block .block-inner .block-header p {
+  display: inline-block;
+  vertical-align: top;
+}
+.block-2 .block .block-inner .part1 {
+  display: inline-block;
+  width: 33%;
+  vertical-align: top;
+  border-radius: 15px 0 15px 15px;
+}
+.block-2 .block .block-inner .part1 p {
+  padding: 8px;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+.block-2 .block .block-inner .part2 {
+  display: inline-block;
+  width: 65%;
+}
+.block-2 .block .block-inner .part2 p {
+  font-size: 16px;
 }
 
 .bg-secondary {
@@ -367,7 +400,7 @@ header .search-block {
   width: 100%;
   margin: 0 auto;
   min-height: 70vh;
-  padding: 0 15px;
+  padding: 15px 15px;
 }
 
 footer {
@@ -558,7 +591,7 @@ footer .inner-footer .footer-info .policies ul li:last-child a {
     min-width: 100%;
   }
   body .main-container .page-container .blocks .block-1 {
-    min-width: 290px;
+    min-width: 100%;
     margin: 20px 0;
   }
   body .main-container .page-container .blocks .block-1 .block h3::after {
@@ -566,13 +599,22 @@ footer .inner-footer .footer-info .policies ul li:last-child a {
     border-bottom: 0px solid transparent;
     border-left: 0px solid #eeae30;
   }
+  body .main-container .page-container .blocks .block-1 .block .block-inner .block-header h6::after {
+    display: none;
+  }
   body .main-container .page-container .blocks .block-2 {
-    min-width: 290px;
+    min-width: 100%;
   }
   body .main-container .page-container .blocks .block-2 .block h3::after {
     border-top: 0px solid transparent;
     border-bottom: 0px solid transparent;
     border-left: 0px solid #ce5d1b;
+  }
+  body .main-container .page-container .blocks .block-2 .block h3::before {
+    display: none;
+  }
+  body .main-container .page-container .blocks .block-2 .block .block-inner .block-header h6::after {
+    display: none;
   }
 
   footer {
@@ -642,6 +684,9 @@ footer .inner-footer .footer-info .policies ul li:last-child a {
     margin: 6px 25px;
   }
 
+  body .main-container .page-container main .navbar-main {
+    height: auto;
+  }
   body .main-container .page-container main .gallery {
     display: none;
   }
@@ -650,8 +695,11 @@ footer .inner-footer .footer-info .policies ul li:last-child a {
     position: relative;
     text-align: initial;
   }
-  body .main-container .page-container main .midsection .col2 .sidebox {
-    width: 290px;
+  body .main-container .page-container main .blocks .block-1 .block-inner .block-header h6::after {
+    display: none;
+  }
+  body .main-container .page-container main .blocks .block-2 .block-inner .block-header h6::after {
+    display: none;
   }
 
   footer {
