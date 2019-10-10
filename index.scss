@@ -324,6 +324,16 @@ header {
 
             .sidebox-header-text {
               display: inline-block;
+              p{
+                font-size: 17px;
+                color: $colours__green;
+                margin: 0;
+                font-weight: 500;
+              }
+            }
+            .header-line{
+              width: 100%;
+              color: $colours__green;
             }
 
 
@@ -386,7 +396,7 @@ header {
           border-bottom: 160px solid transparent;
           border-left: 30px solid #eeae30;
           top: 60.2%;
-          right: 55.5%;
+          right: 55.7%;
         }
         }
       .block-inner{

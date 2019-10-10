@@ -254,6 +254,16 @@ header .search-block {
 .main-container .page-container .midsection .col2 .sidebox .sidebox-header .sidebox-header-text {
   display: inline-block;
 }
+.main-container .page-container .midsection .col2 .sidebox .sidebox-header .sidebox-header-text p {
+  font-size: 17px;
+  color: #59a618;
+  margin: 0;
+  font-weight: 500;
+}
+.main-container .page-container .midsection .col2 .sidebox .sidebox-header .header-line {
+  width: 100%;
+  color: #59a618;
+}
 .main-container .page-container .midsection .col2 .sidebox .sidebox-post p {
   margin: 0px 0 0 0;
 }
@@ -298,7 +308,7 @@ header .search-block {
   border-bottom: 160px solid transparent;
   border-left: 30px solid #eeae30;
   top: 60.2%;
-  right: 55.5%;
+  right: 55.7%;
 }
 .main-container .blocks .block-1 .block-inner {
   width: 100%;
