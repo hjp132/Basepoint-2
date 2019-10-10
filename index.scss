@@ -180,7 +180,7 @@ header {
         content: "\f061";
         font-weight: 700;
         position: relative;
-        left: 50%;
+        left: 44%;
       }
 
 
@@ -799,6 +799,9 @@ footer {
                 display: none;
               }
               .block-inner{
+                .part1{
+                  width: 90px;
+                }
                 .block-header{
                   h6::after{
                     display: none;
