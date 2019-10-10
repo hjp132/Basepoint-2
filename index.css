@@ -715,6 +715,9 @@ footer .inner-footer .footer-info .policies ul li:last-child a {
   body .main-container .page-container main .blocks .block-2 .block-inner .block-header h6::after {
     display: none;
   }
+  body .main-container .page-container main .blocks .block-2 .block-inner .part2 {
+    width: 62.5%;
+  }
 
   footer {
     padding-bottom: 0;
