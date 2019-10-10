@@ -213,6 +213,7 @@ header {
         ul{
           margin: 0px;
           padding: 5px;
+          word-spacing: 10px;
         }
         li {
           display: inline-block;
@@ -231,7 +232,7 @@ header {
           font-weight: bold;
           color: #69aa38 !important;
           border-radius: 12px;
-          padding: 9px;
+          padding: 8px;
         }
       }
 
@@ -524,7 +525,7 @@ header {
   width: 100%;
   margin: 0 auto;
   min-height: 70vh;
-  padding: 15px 15px;
+  padding: 7px 7px;
 
 }
 footer {
@@ -726,9 +727,8 @@ footer {
     .main-container{
       .page-container{
         .navbar-main{
-          .ul{
 
-          }
+
           li{
             a{
               font-size: 11px;
